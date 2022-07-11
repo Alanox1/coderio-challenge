@@ -15,7 +15,7 @@ export function SearchBox(){
     }
 
     const peticionGet = async () => {
-        let url = `http://worldtimeapi.org/api/timezone`
+        let url = `https://worldtimeapi.org/api/timezone and`
         let data = await fetch(url),
          json = await data.json();
 
